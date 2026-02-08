@@ -7,7 +7,7 @@ app = FastAPI()
 def root():
     return {
         "ok": True,
-        "message": "Hello from Coolify",
+        "message": "Версия 2. Привет.",
         "ts_utc": datetime.now(timezone.utc).isoformat()
     }
 
