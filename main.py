@@ -1,3 +1,7 @@
+@app.get("/version")
+def version():
+    return {"version": "0.0.2", "branch": "feature/version-endpoint"}
+
 from fastapi import FastAPI
 from datetime import datetime, timezone
 
